@@ -1,0 +1,26 @@
+{
+  "name": "ryan_house_portfolio",
+  "version": "1.0.0",
+  "description": "Portfolio for all my current web development endeavors",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rhouse00/portfolio.git"
+  },
+  "author": "Ryan House",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rhouse00/portfolio/issues"
+  },
+  "homepage": "https://github.com/rhouse00/portfolio#readme",
+  "dependencies": {
+    "body-parser": "^1.17.0",
+    "express": "^4.15.1",
+    "express-handlebars": "^3.0.0",
+    "method-override": "^2.3.7"
+  }
+}

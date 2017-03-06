@@ -1,0 +1,99 @@
+
+.handstand-card.mdl-card {
+  width: 450px;
+  height: 350px;
+}
+.handstand-card > .mdl-card__title {
+  color: #fff;
+  background: url('../images/Straight-Line-Handstand.jpg');
+  background-position: 0px -100px;
+}
+
+.hspu-card.mdl-card {
+  width: 450px;
+  height: 350px;
+}
+.hspu-card > .mdl-card__title {
+  color: #fff;
+  background: url('../images/hspu.jpg');
+  background-size: 100% 100%;
+}
+
+.powerlifting-card.mdl-card {
+  width: 450px;
+  height: 350px;
+}
+
+.mdl-card__media > img {
+  max-width: 39%;
+  display: block;
+  margin: auto;
+}
+
+.mdl-card__media {
+    margin: 0;
+    background-color: #ffffff;
+}
+
+.mdl-layout__header {
+  background-image: url("../images/header.jpeg");
+}
+.mdl-layout__tab-bar, .mdl-layout__tab-bar-button, .mdl-layout__tab-bar-left-button {
+  background-color: transparent;
+}
+
+body {
+  background-image: url("../images/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.mdl-tabs__panel {
+  border-left: 2px solid red;
+}
+/*HTML  CSS   Result
+Edit on */
+/* color css */
+/*.bg-dust {
+    background: #EBEBEB;
+}*/
+
+/*Vertical Tabs*/
+.vertical-mdl-tabs {
+  padding: 30px 0;
+}
+.vertical-mdl-tabs .mdl-tabs__tab-bar {
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    height: inherit;
+    border-bottom: none;
+    /*border-right: 1px solid rgba(10, 11, 49, 0.20);*/
+ /*   box-shadow:  0 0 5px 0 rgba(0,0,0,.14);*/
+}
+
+.vertical-mdl-tabs .mdl-tabs__tab {
+    width: 100%;
+    height: 35px;
+    line-height: 35px;
+    box-sizing: border-box;
+    letter-spacing: 2px;
+}
+
+.vertical-mdl-tabs.mdl-tabs.is-upgraded a.mdl-tabs__tab.is-active {
+    /*border-bottom: 2px solid rgb(255, 255, 0);*/
+    background-color: rgb(96, 125, 139);
+    color: rgb(255,255,255);
+}
+.vertical-mdl-tabs.mdl-tabs.is-upgraded .mdl-tabs__tab.is-active:after {
+    content: inherit;
+    height: 0;
+}
+
+.vertical-mdl-tabs.mdl-tabs.is-upgraded .mdl-tabs__panel.is-active, .mdl-tabs__panel {
+    padding: 0 30px;
+}
+
+.vertical-mdl-tabs.mdl-tabs .mdl-tabs__tab {
+    text-align: left;
+}
