@@ -22,12 +22,18 @@ a {
 .mdl-card__supporting-text > p {
   margin-bottom: 0px;
 }
+div.mdl-typography--text-center > h2.mdl-card__title-text {
+  margin: auto;
+  width: 80%;
+}
 
-/*body {
-  background-image: url("../images/background.jpg");
+body {
+  background-image: url("../img/lake1280x1024.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-}*/
+  color: white;
+}
+
 
 .mdl-tabs__panel {
   border-left: 2px solid red;
