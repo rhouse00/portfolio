@@ -1,16 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>fitWOD</title>
+    <title>Portfolio of Ryan House</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-<!--     <script src="https://www.gstatic.com/firebasejs/3.5.3/firebase.js"></script> -->
-    <link rel="stylesheet" href="https://code.getmdl.io/1.2.1/material.indigo-red.min.css"/>
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.blue_grey-yellow.min.css"/>
     <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:300,400,500,700" type="text/css">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-    <script defer src="https://code.getmdl.io/1.2.1/material.min.js"></script>
+    <script defer src="https://code.getmdl.io/1.3.0/material.min.js" ></script>
+    <style type="text/css"> .js {display: none}</style> <!--FOUC issue-->
 
 </head>
 <body>
@@ -19,21 +19,20 @@
   <header class="mdl-layout__header">
   <div class="mdl-layout-icon"></div>
     <div class="mdl-layout__header-row">
-      <!-- Title -->
-      <span class="mdl-layout-title">fitWOD</span>
+      <span class="mdl-layout-title">Ryan House</span>
     </div>
     <!-- Tabs -->
     <div class="mdl-layout__tab-bar mdl-js-ripple-effect ">
       <a href="#scroll-tab-1" class="mdl-layout__tab is-active">Welcome</a>
-      <a href="#scroll-tab-2" class="mdl-layout__tab">Online Programming</a>
-      <a href="#scroll-tab-3" class="mdl-layout__tab">Video Library</a>
+      <a href="#scroll-tab-2" class="mdl-layout__tab">About</a>
+      <a href="#scroll-tab-3" class="mdl-layout__tab">Projects</a>
       <a href="#scroll-tab-4" class="mdl-layout__tab">Blog</a>
-      <a href="#scroll-tab-5" class="mdl-layout__tab">Shop</a>
       <a href="#scroll-tab-6" class="mdl-layout__tab">Contact</a>
     </div>
   </header>
-  <div class="mdl-layout__drawer">
-    <span class="mdl-layout-title">fitWOD</span>
+
+  <!--<div class="mdl-layout__drawer">
+    <span class="mdl-layout-title">Ryan House</span>
 	    <nav class="mdl-navigation">
 	      <a class="mdl-navigation__link" href="index.html">Welcome</a>
 	      <a class="mdl-navigation__link" href="#scroll-tab-2">All Programs</a>
@@ -41,23 +40,77 @@
 	      <a class="mdl-navigation__link" href="videos.html">All Videos</a>
 	      <a class="mdl-navigation__link" href="#scroll-tab-5">Contact</a>
 	    </nav>
-  </div>
+  </div>-->
+  
   <main class="mdl-layout__content">
    
     <section class="mdl-layout__tab-panel is-active" id="scroll-tab-1">
-      <div class="page-content"><!-- Your content goes here -->
+      <div class="page-content">
         <div class="welcome-tab mdl-typography--text-center">
-          <h1>fitWOD</h1>
-          <h4>....Felix Intense Training!</h4>
-          <p>Here at fitWOD, our aim is to set you up for success, no matter what type of program you want to do.</p>
+          <h1>Ryan House</h1>
+          <h4>Welcome to my portfolio. Take a look around and get in touch!</h4>
         </div>
       </div>
     </section>
 
-      <!-- Online Programming Page -->
-    <section class="mdl-layout__tab-panel" id="scroll-tab-2">
+    <section class="mdl-layout__tab-panel js" id="scroll-tab-2">
       <div class="page-content">
+        <div class="mdl-grid">
+          <div class="mdl-cell mdl-cell--2-offset mdl-cell--8-col">
+            <h2>About Me</h2>
 
+            <p>My educational experience started with a Bachelor of Science in Business Administration Management with an emphasis in Project Management from the California State University, Chico. I was the founding member of the student organization the Project Management Group (PMG). I attended talks at the local PMI Chapter and organized numerous community outreach projects. This laid the groundwork for creating the new option, Project Management, in the business school</p>
+            <p>After college, I worked at a construction firm as the Purchasing Manager for the 9 branches in 3 states. I provided logistical support and managed vendors. I also was in charge of inventory management, shipping and receiving, project financial forecasting, and equipment and material deployment.</p>
+            <p>I decided to pursue web development as computers and technology have always been an interest of mine.</p>
+            <p>I spent 8 weeks self-learning coding on the internet. With my 5 years of experience in accounting, finance, project management, estimation, operations, shipping/receiving, and inventory management, I have more of a holistic understanding of business. This experience has provided great insight into the web development industry’s team oriented work environment which focuses on working together towards a common goal and seeing the “big picture”. , an understanding of the bigger picture will provide useful insight.</p>
+            <p>My future goals are to continue developing my understanding of the languages I have learned so far, JS / Node / React / SQL, re-certification in project management and developing the skill set to continue in this field for the long term.</p>
+          </div>
+        </div>    
+      </div>
+    </section>
+
+    <section class="mdl-layout__tab-panel js" id="scroll-tab-3">
+      <div class="page-content">
+        <div class="mdl-grid">
+
+          <div class="mdl-cell mdl-cell--1-offset mdl-cell--5-col  mdl-card mdl-shadow--6dp">
+              <div class="mdl-card__media">
+                <img src="./assets/img/trainbotmainpage.png" alt="Train Bot landing page">
+              </div>
+              <div class="mdl-card--expand mdl-card__title">
+                <h2 class="mdl-card__title-text">Train Bot...</h2>
+              </div>
+              <div class="mdl-card__supporting-text">
+                <p>a personal trainers complete online presence</p>
+              </div>
+              <div class="mdl-card__actions mdl-card--border">
+                <a href="https://rhouse-train-bot.herokuapp.com/" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">Check it out</a>
+              </div>
+          </div>
+
+          <div class="mdl-cell mdl-cell--5-col  mdl-card mdl-shadow--6dp">
+              <div class="mdl-card__media">
+                <img src="./assets/img/movetomainpage.png" alt="MoveTo landing page">
+              </div>
+              <div class="mdl-card--expand mdl-card__title">
+                <h2 class="mdl-card__title-text">MoveTo...</h2>
+              </div>
+              <div class="mdl-card__supporting-text">
+                <p>An aggregator of city information for your upcoming move</p>
+              </div>
+              <div class="mdl-card__actions mdl-card--border">
+                <a href="http://moveto.herokuapp.com/" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">Check it out</a>
+              </div>
+          </div>
+
+
+        </div>
+      </div>
+    </section>
+
+          <!-- Online Programming Page -->
+    <section class="mdl-layout__tab-panel js" id="scroll-tab-4">
+      <div class="page-content">
         <div class="mdl-grid">
 
             <div class="mdl-cell mdl-cell--6-col mdl-cell-8-col-tablet mdl-cell--4-col-phone handstand-card mdl-card mdl-shadow--6dp">
@@ -70,93 +123,15 @@
                 <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">Learn More</a>
               </div>
             </div>
- 
-            <div class="mdl-cell mdl-cell--6-col mdl-cell-8-col-tablet mdl-cell--4-col-phone hspu-card mdl-card mdl-shadow--3dp">
-              <div class="mdl-card--expand mdl-card__title">
-                <h2 class="mdl-card__title-text">Beginner's Handstand Push Up Program</h2></div>
-              <div class="mdl-card__media"></div>
-              <div class="mdl-card__supporting-text">Want to learn to walk...on your hands?</div>
-              <div class="mdl-card__actions mdl-card--border">
-                <!-- Button with ripple Effect-->
-                <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">More Info</a>
-              </div>
-            </div>
-
-            <div class="mdl-cell mdl-cell--6-col mdl-cell-8-col-tablet mdl-cell--4-col-phone powerlifting-card mdl-card mdl-shadow--16dp">
-              <div class="mdl-card__media">
-                <img src="assets/images/powerlifting.jpg" id="powerliftingImg"></div>
-              <div class="mdl-card--expand mdl-card__title">
-                <h2 class="mdl-card__title-text">Beginner's Powerlifting Program</h2></div>
-              <div class="mdl-card__supporting-text">Ready to lift some heavy ass weight?</div>
-              <div class="mdl-card__actions mdl-card--border">
-                <!-- Button with ripple Effect-->
-                <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">Learn More</a></div>
-            </div>
-
-
+            
         </div>
-
-
-
-      </div>
-    </section>
-   
-    <section class="mdl-layout__tab-panel" id="scroll-tab-3">
-      <div class="page-content">
-
-      <div class="mdl-grid">
-
-        <div class="mdl-cell mdl-cell--6-col mdl-cell-8-col-tablet mdl-cell--4-col-phone mdl-card mdl-shadow--6dp">
-          
-          <div class="mdl-card__media">
-            <iframe width="450" height="275" src="https://www.youtube.com/embed/xlHedRWHBmM" frameborder="0" allowfullscreen></iframe>
-          </div>
-          <div class="mdl-card--expand mdl-card__title">
-            <h2 class="mdl-card__title-text">A Negative Body Lever</h2></div>
-        </div>
-
-
-        <div class="mdl-cell mdl-cell--6-col mdl-cell-8-col-tablet mdl-cell--4-col-phone mdl-card mdl-shadow--3dp">
-          <div class="mdl-card__media">
-            <iframe width="450" height="275" src="https://www.youtube.com/embed/Y8mxzxahgCw" frameborder="0" allowfullscreen></iframe>
-          </div>
-          <div class="mdl-card--expand mdl-card__title">
-            <h2 class="mdl-card__title-text">Mid Hang and Low Hang Snatch</h2></div>
-          </div>
-      </div>
-
-
-      <div class="mdl-grid">
-        <div class="mdl-cell mdl-cell--6-col mdl-cell-8-col-tablet mdl-cell--4-col-phone mdl-card mdl-shadow--16dp">
-          <div class="mdl-card__media">
-            <iframe width="450" height="275" src="https://www.youtube.com/embed/FJiYcShQcMQ" frameborder="0" allowfullscreen></iframe>
-          </div>
-          <div class="mdl-card--expand mdl-card__title">
-            <h2 class="mdl-card__title-text">Deadlift - Clean grip</h2></div>
-        </div>
-
-      </div>
-    </div>
-
-
-
-
-
-
-
-
-
-
       </div>
     </section>
 
-    <section class="mdl-layout__tab-panel" id="scroll-tab-4">
+    <section class="mdl-layout__tab-panel js" id="scroll-tab-5">
       <div class="page-content"><!-- Your content goes here --></div>
     </section>
-    <section class="mdl-layout__tab-panel" id="scroll-tab-5">
-      <div class="page-content"><!-- Your content goes here --></div>
-    </section>
-    <section class="mdl-layout__tab-panel" id="scroll-tab-6">
+    <section class="mdl-layout__tab-panel js" id="scroll-tab-6">
       <div class="page-content"><!-- Your content goes here --></div>
     </section>
   </main>
@@ -164,6 +139,6 @@
 
 
 
-
+<!--<script>document.getElementById('#fouc').style.display="block"</script>-->
 </body>
 </html>

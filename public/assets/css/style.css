@@ -1,31 +1,5 @@
-
-.handstand-card.mdl-card {
-  width: 450px;
-  height: 350px;
-}
-.handstand-card > .mdl-card__title {
-  color: #fff;
-  background: url('../images/Straight-Line-Handstand.jpg');
-  background-position: 0px -100px;
-}
-
-.hspu-card.mdl-card {
-  width: 450px;
-  height: 350px;
-}
-.hspu-card > .mdl-card__title {
-  color: #fff;
-  background: url('../images/hspu.jpg');
-  background-size: 100% 100%;
-}
-
-.powerlifting-card.mdl-card {
-  width: 450px;
-  height: 350px;
-}
-
 .mdl-card__media > img {
-  max-width: 39%;
+  max-width: 100%;
   display: block;
   margin: auto;
 }
@@ -35,18 +9,25 @@
     background-color: #ffffff;
 }
 
-.mdl-layout__header {
-  background-image: url("../images/header.jpeg");
-}
 .mdl-layout__tab-bar, .mdl-layout__tab-bar-button, .mdl-layout__tab-bar-left-button {
   background-color: transparent;
 }
+.mdl-card div.mdl-card__title, .mdl-card div.mdl-card__supporting-text {
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+a {
+  color:rgb(0,0,0);
+}
+.mdl-card__supporting-text > p {
+  margin-bottom: 0px;
+}
 
-body {
+/*body {
   background-image: url("../images/background.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-}
+}*/
 
 .mdl-tabs__panel {
   border-left: 2px solid red;
