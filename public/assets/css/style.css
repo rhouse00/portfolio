@@ -22,16 +22,22 @@ a {
 .mdl-card__supporting-text > p {
   margin-bottom: 0px;
 }
-div.mdl-typography--text-center > h2.mdl-card__title-text {
+/*div.mdl-typography--text-center > h2.mdl-card__title-text {
   margin: auto;
   width: 80%;
-}
+  padding-top: 8px;
+  padding-bottom: 0;
+}*/
 
 body {
   background-image: url("../img/lake1280x1024.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
+}
+
+.mdl-list .mdl-list__item{
+  display: inline;
 }
 
 
